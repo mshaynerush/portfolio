@@ -1,0 +1,9 @@
+<ul id="left">
+
+	<li><a href="#" id="workhistory">Introduction</a></li>
+	<li><a href="#" id="interest">Interests</a></li>
+	<li><a href="#" id="education">Education</a></li>
+	<li><a href="#" id="portfolio">Porftfolio</a></li>
+	<li><a href="#" id="references">References</a></li>
+
+</ul>

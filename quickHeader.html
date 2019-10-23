@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Quick Header</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script  src="jquery.js"></script>
+
+
+</head>
+<body>
+
+	<div class="container">
+
+			<div class="oxygen-nav">
+					
+				<ul>
+
+					<li><a href="#" id="index">Home</a></li>
+					<li><a href="#" id="workhistory">Resume</a></li>
+					<li><a href="#" id="interest">Interests</a></li>
+					<li><a href="#" id="reflections">Reflections</a></li>
+					<li><a href="#" id="portfolio">Portfolio</a></li>
+
+				</ul>
+
+			</div>
+
+		<div class="oxygen-header">
+
+			<div class="oxygen-main-image"><img src="images/shayne_rushton_main.png"></div>
+
+		</div>
+
+		<div class="modal-box"></div>
+
+			<div class="modal-text">
+
+				<div class="close-btn"></div>
+
+
+			</div>
+
+		
+
+	</div>
+
+<script>
+
+	$(document).ready(function(){
+
+
+		$('a').click(function(){
+
+				var page = $(this).attr('id') + '.html'
+				
+				$('.modal-box').fadeIn(250);
+				$('.modal-text').fadeIn(450).load(page)
+				
+				
+				
+
+		})
+
+
+	});
+
+	
+
+</script>
+
+</body>
+</html>
