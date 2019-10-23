@@ -223,8 +223,7 @@ body
 	flex-direction: column;
 	position: relative;
 	margin: auto 0;
-
-
+        z-index: 1001;
 
 }
 
@@ -263,6 +262,6 @@ body
 
 .link-on
 {
-     color: #107966;
+     Color: #107966
 }
 
