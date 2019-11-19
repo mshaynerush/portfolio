@@ -267,11 +267,11 @@ body
 
 @media screen-only and (min-width: 768px){
 	
-	.container
+.container
 {
 
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	height: 100vh;
 	overflow: hidden;
 	position: absolute;
 	background-image: url('images/headerBG-oxygen.png');
@@ -291,8 +291,8 @@ body
 
 .oxygen-main-image img
 {
-	width: 60%;
-	height: 60%;
+	width: 100%;
+	height: 100%;
 }
 	
 }
