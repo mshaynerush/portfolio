@@ -265,7 +265,7 @@ body
      Color: #107966
 }
 
-@media screen-only and {min-width: 768px}{
+@media screen-only and (min-width: 768px){
 	
 	.container
 {
