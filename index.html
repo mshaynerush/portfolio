@@ -57,7 +57,7 @@
 		$('a').click(function(){
 
 				var page = $(this).attr('id') + '.html'
-				$.get(page,list,function(){
+				$.get(page,function(list){
                                  $('.section-left').append(list)
                                   })
 				$('.modal-box').fadeIn(250);
