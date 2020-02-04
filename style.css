@@ -22,11 +22,13 @@ body
 	position: relative;
 	left: 0;
 	top: 20%;
+	overflow: hidden;
 }
 
 .oxygen-main-image img
 {
-
+	width: 70%;
+	height: 70%;
 }
 
 .oxygen-nav
@@ -41,6 +43,7 @@ body
 .oxygen-nav ul
 {
 	height: 86px;
+	width: 250px;
 	display: inline-block;
 	position: relative;
 	left: 35%;
