@@ -21,7 +21,7 @@ body
 .oxygen-header
 {
 
-	position: relative;
+	position: absolute;
 	left: 10%;
 	top: 20%;
 
