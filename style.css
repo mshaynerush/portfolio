@@ -30,6 +30,9 @@ body
 {
 	width: 50%;
 	height: 50%;
+	position: relative;
+	left: 35%;
+	top: 25%;
 }
 
 .oxygen-nav
