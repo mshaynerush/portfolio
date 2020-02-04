@@ -16,6 +16,7 @@ body
 	position: absolute;
 	background-image: url('images/headerBG-oxygen.png');
 	background-repeat: no-repeat;
+	background-size: 100%;
 
 }
 
