@@ -40,6 +40,20 @@ body
 	margin: 0;
 }
 
+.oxygen-nav ul
+{
+	height: 86px;
+	max-width: 65%;
+	display: inline-block;
+	position: relative;
+	left: 35%;
+	background-image: url('images/navBG-oxygen.png');
+	background-repeat: repeat-x;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
 .oxygen-nav li
 {
 	display: inline-block;
