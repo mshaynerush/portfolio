@@ -41,7 +41,7 @@ body
 .oxygen-nav ul
 {
 	height: 86px;
-	display: block;
+	display: inline-block;
 	position: relative;
 	left: 35%;
 	background-image: url('images/navBG-oxygen.png');
@@ -49,7 +49,6 @@ body
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	width: 100%;
 }
 
 .oxygen-nav li
