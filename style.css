@@ -125,6 +125,7 @@ body
 	background-color: rgba(0,0,0,.5);
 	content:"";
 	display: none;
+	height: 100%;
 }
 
 .modal-text
