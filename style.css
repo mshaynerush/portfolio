@@ -44,6 +44,8 @@ body
 	padding: 0;
 	margin: 0;
 	width: 55%;
+	background-image: url('images/navBG-oxygen.png');
+	background-repeat: repeat-x;
 }
 
 .oxygen-nav ul
@@ -53,8 +55,6 @@ body
 	position: relative;
 	left: 30%;
 	width: 50%;
-	background-image: url('images/navBG-oxygen.png');
-	background-repeat: repeat-x;
 	list-style-type: none;
 	margin: 0px;
 	padding-left: 300px;
