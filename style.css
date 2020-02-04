@@ -50,10 +50,11 @@ body
 	display: inline-block;
 	position: relative;
 	left: 35%;
+	width: 65%
 	background-image: url('images/navBG-oxygen.png');
 	background-repeat: repeat-x;
 	list-style-type: none;
-	padding: 0;
+	padding-left: 40px;
 	margin: 0;
 }
 
