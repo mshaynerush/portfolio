@@ -42,8 +42,6 @@ body
 	position: relative;
 	top: 44%;
 	width: 65%;
-	padding: 0;
-	margin: 0;
 	background-image: url('images/navBG-oxygen.png');
 	background-repeat: repeat-x;
 }
@@ -53,7 +51,7 @@ body
 	height: 86px;
 	display: inline-block;
 	position: relative;
-	width: 50%;
+	width: 95%;
 	list-style-type: none;
 	margin: 0px;
 	padding: 0;
