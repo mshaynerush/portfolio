@@ -43,16 +43,6 @@ body
 
 
 
-.oxygen-nav li
-{
-	display: inline-block;
-	padding: 0 25px;
-	margin: 0;
-	height: 100%;
-	line-height: 86px;
-	height: 78px;
-	position: relative;
-}
 
 .oxygen-nav li:hover
 {
