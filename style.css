@@ -54,7 +54,7 @@ body
 	background-image: url('images/navBG-oxygen.png');
 	background-repeat: repeat-x;
 	list-style-type: none;
-	margin-left: 90px;
+	margin: 0 0 0 90px;
 }
 
 .oxygen-nav li
