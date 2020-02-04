@@ -7,7 +7,8 @@ body
 	height: 100%;
 	background-image: url('images/headerBG-oxygen.png');
 	background-repeat: no-repeat;
-
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .container
