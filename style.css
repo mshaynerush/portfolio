@@ -53,6 +53,7 @@ body
 	display: inline-block;
 	position: relative;
 	width: 70%;
+	left: 15%;
 	list-style-type: none;
 	margin: 0px;
 	padding: 0;
