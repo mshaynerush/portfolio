@@ -49,13 +49,13 @@ body
 	height: 86px;
 	display: inline-block;
 	position: relative;
-	left: 35%;
+	left: 30%;
 	width: 65%;
 	background-image: url('images/navBG-oxygen.png');
 	background-repeat: repeat-x;
 	list-style-type: none;
 	margin: 0px;
-	padding-left: 90px;
+	padding-left: 180px;
 }
 
 .oxygen-nav li
