@@ -40,8 +40,10 @@ body
 {
 	position: relative;
 	top: 44%;
+	left: 45%;
 	padding: 0;
 	margin: 0;
+	width: 55%;
 }
 
 .oxygen-nav ul
