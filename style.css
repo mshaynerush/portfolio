@@ -15,6 +15,7 @@ body
 	background-image: url('images/headerBG-oxygen.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 .oxygen-header
