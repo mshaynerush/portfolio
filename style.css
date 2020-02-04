@@ -3,9 +3,6 @@ body
 
 	margin: 0;
 	padding: 0;
-	background-image: url('images/headerBG-oxygen.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
 }
@@ -15,6 +12,9 @@ body
 	width: 100%;
 	height: 100%;
 	position: absolute;
+	background-image: url('images/headerBG-oxygen.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .oxygen-header
