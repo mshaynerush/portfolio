@@ -39,7 +39,7 @@ body
 .oxygen-nav
 {
 	position: relative;
-	top: 42%;
+	top: 44%;
 	padding: 0;
 	margin: 0;
 }
@@ -55,7 +55,7 @@ body
 	background-repeat: repeat-x;
 	list-style-type: none;
 	margin: 0px;
-	padding-left: 180px;
+	padding-left: 270px;
 }
 
 .oxygen-nav li
