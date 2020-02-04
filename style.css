@@ -3,12 +3,10 @@ body
 
 	margin: 0;
 	padding: 0;
-	width: 100%;
-	height: 100%;
 	background-image: url('images/headerBG-oxygen.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+
 }
 
 .container
@@ -40,7 +38,6 @@ body
 
 	position: relative;
 	top: 42%;
-	width: 100%;
 	padding: 0;
 	margin: 0;
 
@@ -49,8 +46,6 @@ body
 
 .oxygen-nav ul
 {
-
-	width: 100%;
 	height: 86px;
 	display: block;
 	position: relative;
@@ -60,14 +55,10 @@ body
 	list-style-type: none;
 	padding: 0 0 0 90px;
 	margin: 0;
-
-
 }
 
 .oxygen-nav li
 {
-
-	
 	display: inline-block;
 	padding: 0 25px;
 	margin: 0;
@@ -79,15 +70,12 @@ body
 
 .oxygen-nav li:hover
 {
-
 	background-color: #107966;
 	transition: all ease 250ms;
-	
 }
 
 .oxygen-nav a
 {
-
 	text-decoration: none;
 	font-size: 26pt;
 	font-family: 'Dancing Script', cursive;
@@ -98,12 +86,10 @@ body
 	position: relative;
 	z-index: 999;
 	height: 100%;
-
 }
 
 .oxygen-nav li::before
 {
-
 	content: "";
 	display: block;
 	background-color: rgba(255,255,255,.3);
@@ -113,19 +99,15 @@ body
 	left: 0;
 	top: 0;
 	transition: all ease 250ms;
-
 }
 
 .oxygen-nav li:hover::before, .oxygen-nav li:hover::after
 {
-
 	width: 100%;
-	
 }
 
 .oxygen-nav li::after
 {
-
 	content: "";
 	display: block;
 	background-color: rgba(255,255,255,.3);
@@ -135,12 +117,10 @@ body
 	left: 0;
 	bottom: -8px;
 	transition: all ease 250ms;
-
 }
 
 .modal-box
 {
-
 	position: absolute;
 	z-index: 999;
 	top: 0;
@@ -150,12 +130,10 @@ body
 	background-color: rgba(0,0,0,.5);
 	content:"";
 	display: none;
-
 }
 
 .modal-text
 {
-
 	position: absolute;
 	top: 5%;
 	left: 3%;
@@ -169,24 +147,20 @@ body
 	color: #FFF;
 	max-height: 95%;
 	display: none;
-
 }
 
 .section-left
 {
-
 	max-width: 20%;
 	height: 95vh;
 	padding-right: 25px;
 	background-color: rgba(0, 0, 0, 0);
 	float: left;
 	position: relative;
-
 }
 
 .sect
 {
-
 	max-width: 80%;
 	height: 100%;
 	padding: 20px;
@@ -196,12 +170,10 @@ body
 	position: relative;
 	top: 10%;
 	left: 10%;
-
 }
 
 .heading
 {
-
 	width: 90%;
 	height: 35px;
 	display: block;
@@ -211,12 +183,10 @@ body
 	padding-top: 35px;
 	position: relative;
 	z-index: -1;
-
 }
 
 .section-left ul
 {
-
 	list-style-type: none;
 	height: 50%;
 	width: 100%;
@@ -225,32 +195,26 @@ body
 	position: relative;
 	margin: auto 0;
         z-index: 1001;
-
 }
 
 .section-left ul li
 {
-
 	width: 100%;
 	height: 100%;
 	color: #FFF;
 	margin: 0;	
-
 }
 
 .section-left a
 {
-
 	text-decoration: none;
 	color: #FFF;
 	font-size: 26pt;
 	font-family: 'Dancing Script', cursive;
-
 }
 
 .close-btn
 {
-
 	position: absolute;
 	top: 10px;
 	right: 20px;
@@ -258,7 +222,6 @@ body
 	cursor: pointer;
 	z-index: 1001;
 	margin: 0;
-
 }
 
 .link-on
@@ -270,24 +233,20 @@ body
 	
 .container
 {
-
 	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
 	position: absolute;
 	background-image: url('images/headerBG-oxygen.png');
 	background-repeat: no-repeat;
-
 }
 
 .oxygen-header
 {
-
 	position: absolute;
 	width: 100%;
 	left: 10%;
 	top: 20%;
-
 }
 
 .oxygen-main-image img
