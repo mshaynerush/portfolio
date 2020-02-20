@@ -9,32 +9,32 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<script  src="jquery.js"></script>
+	<script src="modal.js"></script>
 </head>
 <body>
-	
-		
 
+		
 	<div class="heading">Resume</div>
 	<div class="close-btn">&times;</div>
 	<div class="section-left">
-		
+	<!--
 		<ul id="left">
-
+			
 			<li id="workhistory" class="link-on"><a href="#">Introduction</a></li>
-			<li id="interest"><a href="#">Interests</a></li>
+			<li id="interests"><a href="#">Interests</a></li>
 			<li id="education"><a href="#">Education</a></li>
 			<li id="portfolio"><a href="#">Porftfolio</a></li>
 			<li id="references"><a href="#">References</a></li>
-
-		</ul>
+		
+	-->
 
 	</div>
-	
+
 	<div class="sect">
 		
 		<div class="resume-intro">
 
-		
+		Some stuff about me
 
 		</div>
 
@@ -42,18 +42,22 @@
 
 <script>
 
-	$(document).ready(function(){
+	/*$(document).ready(function(){
 
-		var clicked = '#' + $('body title').text()
-		
-		$(clicked).addClass('link-on')
-		
-				$('.close-btn').click(function(){
+		$('.modal-text .close-btn').click(function(){
+			$('.modal-box').fadeOut(250);
+			$('.modal-text').fadeOut(250);
+			$('.section-left').fadeOut(50);
 
-			$('.modal-box').fadeOut(450);
-			$('.modal-text').fadeOut(150)
 		})
-	})
+		$('a').click(function(){
+			var page = $(this).attr("id") + ".txt"
+			$('.sect').load(page)
+			
+		})
+
+
+	})*/
 
 </script>
 
