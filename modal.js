@@ -22,7 +22,7 @@ $(document).ready(function(){
             
             var page = $(this).attr("id") + ".txt"
             $('.sect').load(page)
-            alert(page)
+         
            
   
         })
