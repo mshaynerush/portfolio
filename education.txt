@@ -1,0 +1,15 @@
+<h1>Education</h1>
+
+<h2>Secondary Education</h2>
+<h3>Edmonds Community College</h3>
+<h4>Area of Study</h4>
+<p>Web Applications and Cloud Development - Associate of Technical Arts Degree Program</p>
+<h4>Status</h4>
+<p>Currently Enrolled. 75 Credits Earned as of February 20, 2020</p>
+<h4>Languages and Disciplines</h4>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>jQuery</li>
+    <li>PHP</li>

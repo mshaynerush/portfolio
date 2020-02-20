@@ -23,9 +23,10 @@
 		</div>
 			<div class="oxygen-nav">					
 				<ul>
-					<li><a href="#" id="workhistory">Resume</a></li>
-					<li><a href="#" id="interest">Interests</a></li>
-					<li><a href="#" id="reflections">Reflections</a></li>
+					<li><a href="#" id="introduction">Introduction</a></li>
+					<li><a href="#" id="interests">Interests</a></li>
+					<li><a href="#" id="education">Education</a></li>
+					<li><a href="#" id="references">References</a></li>
 					<li><a href="#" id="portfolio">Portfolio</a></li>
 				</ul>
 			</div>
@@ -38,7 +39,7 @@
 			
 							
 			
-                        	<div class='section-left'></div>				
+            <div class='section-left'></div>				
 			</div>
 	</div>
 
@@ -48,15 +49,19 @@
 
 		
 		$('a').click(function(){
-			var page = $(this).attr('id') + '.html'
+			var clicked = $(this).attr('id')
+			var page = clicked + '.html'
+			var content = clicked + ".txt"
 			
 				$.get(page,function(list){
-                                 $('.modal box .section-left').append(list)
+                                 $('.section-left').append(list)
                                   })
-								  
-				$('.modal-box').fadeIn(250);
-				$('.modal-text').fadeIn(250).load(page)
-				$('.section-left').fadeIn(50).load('sidenav.txt')
+
+				$('.modal-box').fadeIn(500, "linear");
+				$('.modal-text').fadeIn(500, "linear").load(page)
+				
+				$('.section-left').load('sidenav.txt').fadeIn(500, "linear")
+
 		
 
 		})
@@ -65,11 +70,13 @@
 
 
 		$('.modal-text .close-btn').click(function(){
-			$('.modal-box').fadeOut(450);
-			$('.modal-text').fadeOut(250);
-			
+			$('.modal-box').fadeOut(500, "linear");
+			$('.modal-text').fadeOut(500, "linear");
+
+	
 		})
 
+	
 
 
 	});
