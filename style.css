@@ -268,6 +268,29 @@ body
 	color: #338888;
 }
 
+.intro-text-bg
+{
+	background-color: rgba(0, 0, 0, .6);
+	height: auto;
+	padding: 2.5%;
+	position: relative;
+	display: inline-block;
+}
+
+.intro-text
+{
+	width: 45%;
+	padding: 2.5%;
+	float: left;
+	position: absoulte;
+
+}
+
+.intro-text p
+{
+	text-align: justify;
+}
+
 .portfolio-sites
 {
 	width: 100%;
@@ -280,7 +303,9 @@ body
 	margin: 10px 10px;
 	padding: 5px 15px;
 	background-color: rgba(0, 0, 0, .8);
-	border: 1px solid #338888;
+	border: 2px solid #338888;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 .portfolio-sites img
 {
@@ -294,6 +319,7 @@ body
 {
 	color: #338888;
 	font-family: "Britannic Bold", Arial, Helvetica;
+	font-weight: 900;
 	display: block;
 	position: relative;
 	width: 100%;

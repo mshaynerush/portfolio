@@ -1,34 +1,38 @@
 <h3>References</h1>
-<h2>Professional</h2>
 
-<section class="reference-section">
+
+<div class="intro-text-bg">
+
+    <h2>Professional</h2>
+
+        <section class="reference-section">
+            
+                <div class="reference-item">Name: </div>
+                <div class="ref-info">Corina Stretch</div>
+
+                <div class="slug"></div>
+            
+                <div class="reference-item">Company: </div>
+                <div class="ref-info">Puget Sound Energy</div>
+                <div class="slug"></div>
+
+                <div class="reference-item">Relationship: </div>
+                <div class="ref-info">Former Manager - Puget Sound Energy</div>
+
+
+            <br />
+        
+
+            <h4>Contact Info </h4>
+                <div class="reference-item">Phone: </div>
+                <div class="ref-info">206.396.6152</div>
+                <br />
+                <div class="reference-item">Email: </div>
+                <div class="ref-info">corina.stretch@pse.com</div>
+
+        </section>
     
-        <div class="reference-item">Name: </div>
-        <div class="ref-info">Corina Stretch</div>
-
-        <div class="slug"></div>
-    
-        <div class="reference-item">Company: </div>
-        <div class="ref-info">Puget Sound Energy</div>
-        <div class="slug"></div>
-
-        <div class="reference-item">Relationship: </div>
-        <div class="ref-info">Former Manager - Puget Sound Energy</div>
-
-
-    <br />
-  
-
-    <h4>Contact Info </h4>
-        <div class="reference-item">Phone: </div>
-        <div class="ref-info">Available Upon Request</div>
-        <br />
-        <div class="reference-item">Email: </div>
-        <div class="ref-info">Available Upon Request</div>
-
-</section>
-    
-
+</div>
 
 
 
