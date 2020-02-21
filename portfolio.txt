@@ -8,7 +8,7 @@ but those are upon request. NOTE that I am still in school learning some of the 
 
       <div class="portfolio-sites-section">
         <span class="portfolio-heading">JL Quality Cabinets</span>
-        <a href="http://www.cabinetsrestored.com" target="_new"><img src="images/jlquality.png" alt="J L Quality Cabinets - Seattle's Finest Cabinet Refinishing"></a>
+        <a href="http://www.cabinetsrestored.com" target="_new"><img src="images/jlquality.PNG" alt="J L Quality Cabinets - Seattle's Finest Cabinet Refinishing"></a>
       </div>
 
       <div class="portfolio-sites-section">
