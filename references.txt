@@ -21,10 +21,10 @@
 
     <h4>Contact Info </h4>
         <div class="reference-item">Phone: </div>
-        <div class="ref-info">206.396.6152</div>
+        <div class="ref-info">Available Upon Request</div>
         <br />
         <div class="reference-item">Email: </div>
-        <div class="ref-info">corina.stretch@pse.com</div>
+        <div class="ref-info">Available Upon Request</div>
 
 </section>
     
