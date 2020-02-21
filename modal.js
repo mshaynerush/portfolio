@@ -14,6 +14,7 @@ $(document).ready(function(){
         $('.modal-box').fadeOut(500, "linear");
         $('.modal-text').fadeOut(500, "linear");
         $('.section-left').fadeOut(500, "linear");
+        $('.modal-text .sect').empty();
 
         })
 
