@@ -134,6 +134,7 @@ body
 	display: none;
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
 }
 
 .modal-text
@@ -141,16 +142,16 @@ body
 	position: absolute;
 	top: 5%;
 	left: 3%;
-	bottom: 5%;
 	right: 3%;
+	bottom: 5%;
 	background-color: rgba(0,0,0,.9);
 	z-index: 997;
 	border: 2px solid #107966;
 	border-radius: 5px;
-	overflow: hidden;
 	color: #FFF;
-	max-height: 95%;
+	max-height: 95vh;
 	display: none;
+	overflow: auto;
 }
 
 .modal-text .section-left
@@ -163,17 +164,17 @@ body
 	position: relative;
 }
 
-.sect
+.modal-text .sect
 {
-	max-width: 65%;
-	height: 100%;
+	width: 57%;
+	max-height: 100%;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0);
 	color: #FFF;
 	float: left;
 	position: relative;
 	top: 10%;
-	left: 30%;
+	overflow: auto;
 }
 
 .heading
@@ -201,7 +202,7 @@ body
 	line-height: 4em;
 	float: left;
 	vertical-align: top;
-	display: none;
+
 }
 .section-left ul
 {
@@ -212,7 +213,7 @@ body
 	flex-direction: column;
 	position: relative;
 	margin: auto 0;
-        z-index: 1001;
+    z-index: 1001;
 }
 
 .section-left ul li
@@ -231,9 +232,10 @@ body
 	font-family: 'Dancing Script', cursive;
 }
 
+
 .close-btn
 {
-	position: absolute;
+	position: fixed;
 	top: 10px;
 	right: 20px;
 	font-size: 2rem;
@@ -251,13 +253,12 @@ body
 	font-family: 'Dancing Script', cursive;
 }
 
-.sect p
+.sect p, .sect
 {
 	font-family: "Britannic Bold", Arial, Helvetica;
 	font-size: 12pt;
 	color: #FFF;
 	line-height: 1.5em;
-
 }
 
 .sect h1
@@ -266,6 +267,74 @@ body
 	font-size: 18pt;
 	color: #338888;
 }
+
+.portfolio-sites
+{
+	width: 100%;
+}
+
+.portfolio-sites-section
+{
+	width: 28%;
+	float: left;
+	margin: 10px 10px;
+	padding: 5px 15px;
+	background-color: rgba(0, 0, 0, .8);
+	border: 1px solid #338888;
+}
+.portfolio-sites img
+{
+	width: 100%;
+	height: 100%;
+	margin: 5px auto;
+
+}
+
+.portfolio-heading
+{
+	color: #338888;
+	font-family: "Britannic Bold", Arial, Helvetica;
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 45px;
+	padding: 5px;
+	flex-direction: column;
+}
+
+.reference-section
+{
+	width: 45%;
+	height: auto;
+	position: relative;
+
+}
+.slug
+{
+	width: 98%;
+	min-height: 30px;
+	display: block;
+	clear: both;
+	content: "";
+}
+
+.reference-item
+{
+	width: 30%;
+	float: left;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+.ref-info
+{
+	width: 68%;
+	float: left;
+	color: #338888;
+	font-family: Britannic;
+	font-size: 12pt;
+}
+
 @media screen-only and (min-width: 768px){
 	
 .container
