@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 
-
+          if ($(window).width() > 568){
         var page = $('.heading').text().toLowerCase() + ".txt"
  
         $('.modal-text .sect').load(page).fadeIn(500,"linear");
@@ -16,7 +16,7 @@ $(document).ready(function(){
         $('.modal-text .sect').empty();
 
         })
-
+}
         
 
         $('a').click(function(){
