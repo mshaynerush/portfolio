@@ -1,24 +1,26 @@
 <h1>Portfolio</h1>
-<p>Below are some websites that are still live that I have built, either by updating existing websites, or from scratch. I have other applications in Excel to share, 
-but those are upon request. NOTE that I am still in school learning some of the finer points of back end programming for web applications, but these will demonstrate
- my ability to execute.
-</p>
+
+
+        <p>Below are some websites that are still live that I have built, either by updating existing websites, or from scratch. I have other applications in Excel to share, 
+        but those are upon request. NOTE that I am still in school learning some of the finer points of back end programming for web applications, but these will demonstrate
+        my ability to execute.
+        </p>
 
     <section class="portfolio-sites">
 
       <div class="portfolio-sites-section">
         <span class="portfolio-heading">JL Quality Cabinets</span>
-        <a href="http://www.cabinetsrestored.com" target="_new"><img src="images/jlquality.PNG" alt="J L Quality Cabinets - Seattle's Finest Cabinet Refinishing"></a>
+        <a href="http://www.cabinetsrestored.com" target="_new"><img src="images/jlquality.png" alt="J L Quality Cabinets - Seattle's Finest Cabinet Refinishing"></a>
       </div>
 
       <div class="portfolio-sites-section">
         <span class="portfolio-heading">Pre-Health - Edmonds CC</span>
-        <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.PNG" alt="Edmonds CC Pre Health Site"></a>
+        <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.png" alt="Edmonds CC Pre Health Site"></a>
       </div>
 
       <div class="portfolio-sites-section">
         <span class="portfolio-heading">Done Rite Carpet Cleaning</span>
-        <a href="http://www.doneritecc.com" target="_new"><img src="images/doneritecc.PNG" alt="Seattle Carpet Cleaning Service"></a>
+        <a href="http://www.doneritecc.com" target="_new"><img src="images/doneritecc.png" alt="Seattle Carpet Cleaning Service"></a>
       </div>
 
     </section>
@@ -27,7 +29,8 @@ but those are upon request. NOTE that I am still in school learning some of the 
 
         <div class="portfolio-sites-section">
             <span class="portfolio-heading">Rushton Guitars</span>
-            <a href="https://mshaynerush.github.io/rushtonguitars/" target="_new"><img src="images/rushtonguitars.PNG" alt="Rushton Guitars - All Things Guitar - Talent Not Included"></a>
+            <a href="https://mshaynerush.github.io/rushtonguitars/" target="_new"><img src="images/rushtonguitars.png" alt="Rushton Guitars - All Things Guitar - Talent Not Included"></a>
         </div>
 
     </section>
+
