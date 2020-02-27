@@ -15,7 +15,7 @@
 
       <div class="portfolio-sites-section">
         <span class="portfolio-heading">Pre-Health - Edmonds CC</span>
-        <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.png" alt="Edmonds CC Pre Health Site"></a>
+        <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.PNG" alt="Edmonds CC Pre Health Site"></a>
       </div>
 
       <div class="portfolio-sites-section">
