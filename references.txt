@@ -1,11 +1,22 @@
-<h3>References</h1>
+<h1>References</h1>
 
 
 <div class="intro-text-bg">
 
     <h2>Professional</h2>
 
-        <section class="reference-section">
+          <div class="refs-info-section">
+              <span class="refs-lbl">Name: </span><span class="refs-info">Corina Stretch</span>          
+          </div>
+
+          <div class="refs-info-section">
+              <span class="refs-lbl">Company: </span><span class="refs-info">Puget Sound Energy</span>          
+          </div>
+
+          <div class="refs-info-section">
+              <span class="refs-lbl">Relationship: </span><span class="refs-info">Former Manager - Multiple Departments</span>          
+          </div>
+      <!--  <section class="reference-section">
             
                 <div class="reference-item">Name: </div>
                 <div class="ref-info">Corina Stretch</div>
@@ -31,7 +42,7 @@
                 <div class="ref-info">corina.stretch@pse.com</div>
 
         </section>
-    
+    -->
 </div>
 
 
