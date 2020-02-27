@@ -177,6 +177,12 @@ body
 	overflow: auto;
 }
 
+.close-btn
+{
+
+	z-index: 999;
+}
+
 .heading
 {
 	width: 90%;
@@ -361,30 +367,96 @@ body
 	font-size: 12pt;
 }
 
-@media screen-only and (min-width: 768px){
+@media only screen and (max-width: 568px){
 	
 .container
 {
-	width: 100vw;
+	width: 100%;
 	height: 100%;
-	overflow: hidden;
-	position: absolute;
+	padding: 0;
+	margin: 0;
 	background-image: url('images/headerBG-oxygen.png');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .oxygen-header
 {
-	position: absolute;
-	width: 100%;
-	left: 10%;
-	top: 20%;
+
+	width: 75%;
+	left: -20%;	
+	top: 10%;
 }
 
 .oxygen-main-image img
 {
-	width: 100%;
+	width: 115%;
 	height: 100%;
+}
+
+.oxygen-nav
+{
+	position: absolute;
+	left: 0;
+	top: 91%;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.oxygen-nav ul
+{
+
+	display: flex;
+	position: relative;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 46px;
+	left: 0px;
+	background-image: url('images/navBG-oxygen.png');
+	background-repeat: repeat-x;
+
+}
+
+.oxygen-nav li
+{
+	height: 10px;
+	display: flex;
+	padding: 0;
+	margin: 0 auto;
+	height: 100%;
+	line-height: 46px;
+	position: relative;
+	height: 39px;
+
+}
+
+.oxygen-nav a
+{
+	text-decoration: none;
+	font-size: 9pt;
+	font-family: 'Dancing Script', cursive;
+	color: #FFF;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 995;
+	height: 100%;
+
+}
+
+
+
+.modal-text
+{
+	display: none;
+}
+
+.section-left
+{
+	display: none;
 }
 	
 }
