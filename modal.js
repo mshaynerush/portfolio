@@ -4,7 +4,8 @@
 
 $(document).ready(function(){
 
-
+    $('.close-btn').fadeIn(500, "linear");
+    $('.section-left').fadeIn(500, 'linear');
    
         var page = $('.heading').text().toLowerCase() + ".txt"
         
@@ -15,7 +16,7 @@ $(document).ready(function(){
         $('.modal-text').fadeOut(500, "linear");
         $('.section-left').fadeOut(500, "linear");
         $('.modal-text .sect').empty();
-            $(this).fadeOut(500, "linear")
+        $('.close-btn').fadeOut(500, "linear")
         })
 
         
