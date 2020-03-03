@@ -15,7 +15,7 @@
 
 	<div class="container">
 		<div class="modal-box">
-
+			<div class="close-btn">&times;</div>
 			<div class="modal-text">
 				
 			</div>
@@ -55,7 +55,7 @@
 			var clicked = $(this).attr('id')
 			var page = clicked + '.html'
 			var content = clicked + ".txt"
-				$('.btn-close').fadeIn(500, "linear");
+				
 				$.get(page,function(list){
                                  $('.section-left').append(list)
                                   })
@@ -64,18 +64,21 @@
 				$('.modal-text').fadeIn(500, "linear").load(page)
 				
 				$('.section-left').load('sidenav.txt').fadeIn(500, "linear")
-
+				$('.close-btn').fadeOut(0, "linear");
+				$('.close-btn').fadeIn(500, "linear");
 		
 
 		})
    }
-   else if(w < 568){
+   else if(w <= 568){
 
 			$('a').click(function(){
 				var clicked = $(this).attr('id')
 
 			$('.modal-box').fadeIn(250, "linear")
 			$('.modal-text').load(clicked + '.txt').fadeIn(500, "linear")
+			$('.close-btn').fadeOut(0, "linear");
+			$('.close-btn').fadeIn(500, "linear");
 
 			})
 }
