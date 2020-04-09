@@ -12,6 +12,7 @@ body
 .oxygen-nav
 {
 	background-image: url('images/navBG-oxygen.png');
+	background-repeat: repeat-x;
 
 }
 
