@@ -5,19 +5,14 @@ body
     height: 100%;
     width: 100%;
     background-image: url('images/headerBG-oxygen.png');
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .oxygen-nav
 {
 	
-	position: relative;
-	top: 44%;
-	width: 60%;
-	left: 40%;
-	background-image: url('images/navBG-oxygen.png');
-	background-repeat: repeat-x;
+
 }
 
 .oxygen-nav ul
