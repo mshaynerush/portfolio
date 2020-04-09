@@ -5,6 +5,8 @@ body
     height: 100%;
     widht: 100%;
     background-image: url('images/headerBG-oxygen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .oxygen-nav
