@@ -17,15 +17,16 @@
 </head>
 <body>
 
-	<div class="container">
-		<div class="modal-box">
-			<div class="close-btn">&times;</div>
-			<div class="modal-text">
-				
-			</div>
+	<div class="container-fluid">
+        <div class="row">
+            <!-- front page image -->
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
+                <img src="images/shayne_rushton_main2.png" alt="Picture of Shayne Rushton">
+            </div>
+            <!-- end front page image -->
 
-		</div>
-			<div class="oxygen-nav">					
+            <!-- begin navigation bar -->
+            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-6 col-xl-6">
 				<ul>
 					<li><a href="#" id="introduction">Introduction</a></li>
 					<li><a href="#" id="interests">Interests</a></li>
@@ -33,77 +34,21 @@
 					<li><a href="#" id="references">References</a></li>
 					<li><a href="#" id="portfolio">Portfolio</a></li>
 				</ul>
-			</div>
+            </div>
+            <!-- navigation bar end -->
+            
+        </div>
+    </div>
 
-		<div class="oxygen-header">
-			<div class="oxygen-main-image"><img src="images/shayne_rushton_main2.png" alt="Picture of Shayne Rushton"></div>
-		</div>
+	
+			
 
 
 			
 							
-			
-            <div class='section-left'></div>				
-			</div>
-	
-
-<script>
-
-	$(document).ready(function(){
-
-		var w = $(window).width()
-   
-   if(w > 568){
-	   
-		$('a').click(function(){
-			var clicked = $(this).attr('id')
-			var page = clicked + '.html'
-			var content = clicked + ".txt"
-				
-				$.get(page,function(list){
-                                 $('.section-left').append(list)
-                                  })
-
-				$('.modal-box').fadeIn(500, "linear");
-				$('.modal-text').fadeIn(500, "linear").load(page)
-				
-				$('.section-left').load('sidenav.txt').fadeIn(500, "linear")
-				$('.close-btn').fadeOut(0, "linear");
-				$('.close-btn').fadeIn(500, "linear");
-		
-
-		})
-   }
-   else if(w <= 568){
-
-			$('a').click(function(){
-				var clicked = $(this).attr('id')
-
-			$('.modal-box').fadeIn(250, "linear")
-			$('.modal-text').load(clicked + '.txt').fadeIn(500, "linear")
-			$('.close-btn').fadeOut(0, "linear");
-			$('.close-btn').fadeIn(500, "linear");
-
-			})
-}
 
 
-		$('.modal-text .close-btn').click(function(){
-			$('.modal-box').fadeOut(500, "linear");
-			$('.modal-text').fadeOut(500, "linear");
 
-	
-		})
-
-	
-
-
-	});
-
-
-	
-
-</script>
 
 </body>
 </html>
