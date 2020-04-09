@@ -5,7 +5,7 @@ body
     height: 100%;
     width: 100%;
     background-image: url('images/headerBG-oxygen.png');
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
 }
 
