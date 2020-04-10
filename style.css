@@ -12,7 +12,9 @@ body
 .row-top-lane
 {
 	min-height: 25%;
+	min-width: 100%;
 	content: '';
+	display: block;
 }
 
 .oxygen-nav
