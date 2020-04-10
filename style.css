@@ -25,10 +25,11 @@ body
 .oxygen-nav ul
 {
 	height: 86px;
+    width: 60%;
 	display: inline-block;
 	position: relative;
-	width: 85%;
-	left: 15%;
+    top: 50%;
+    left: 48%;
 	list-style-type: none;
 	margin: 0px;
 	padding: 0;
