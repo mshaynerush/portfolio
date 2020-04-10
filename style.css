@@ -1,101 +1,58 @@
-body
-{
-    padding: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url('images/headerBG-oxygen.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shayne Rushton - Online Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-.logo-section
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-.oxygen-nav
-{
-	background-image: url('images/navBG-oxygen.png');
-	background-repeat: repeat-x;
+</head>
+<body>
 
-}
+	<div class="container-fluid">
+        <div class="row row-top-lane">
 
-.oxygen-nav ul
-{
-	height: 86px;
-    width: 60%;
-	display: inline-block;
-	position: relative;
-    top: 50%;
-	list-style-type: none;
-	margin: 0px;
-	padding: 0;
-}
+        </div>
+        <div class="row">
+            <!-- front page image -->                    
+                    <div class="logo-section">
+                            <div col-12">
+                            <img src="images/shayne_rushton_main2.png" alt="Picture of Shayne Rushton">
+                            </div>
+                    </div>
 
-.oxygen-nav li
-{
-	display: inline-block;
-	padding: 0 25px;
-	margin: 0;
-	height: 100%;
-	line-height: 80px;
-	position: relative;
-	height: 78px;
-}
+                       
+<!-- 
+                         begin navigation bar
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <ul class="oxygen-nav">
+                                <li><a href="#" id="introduction">Introduction</a></li>
+                                <li><a href="#" id="interests">Interests</a></li>
+                                <li><a href="#" id="education">Education</a></li>
+                                <li><a href="#" id="references">References</a></li>
+                                <li><a href="#" id="portfolio">Portfolio</a></li>
+                            </ul>
+                        </div>
+                        navigation bar end
+                    -->
+        </div>
+    </div>
+
+	
+			
+
+
+			
+							
 
 
 
-.oxygen-nav li:hover
-{
-	background-color: #107966;
-	transition: all ease 250ms;
-}
 
-.oxygen-nav a
-{
-	text-decoration: none;
-	font-size: 26pt;
-	font-family: 'Dancing Script', cursive;
-	color: #FFF;
-	text-shadow: 2px 0 black, 0 -2px black, -2px 0 black, 0 2px black;
-	padding: 0;
-	margin: 0;
-	position: relative;
-	z-index: 995;
-	height: 100%;
-}
-
-.oxygen-nav li::before
-{
-	content: "";
-	display: block;
-	background-color: rgba(255,255,255,.3);
-	height: 8px;
-	width: 0%;
-	position: absolute;
-	left: 0;
-	top: 0;
-	transition: all ease 250ms;
-}
-
-.oxygen-nav li:hover::before, .oxygen-nav li:hover::after
-{
-	width: 100%;
-}
-
-.oxygen-nav li::after
-{
-	content: "";
-	display: block;
-	background-color: rgba(255,255,255,.3);
-	height: 8px;
-	width: 0%;
-	position: absolute;
-	left: 0;
-	bottom: -8px;
-	transition: all ease 250ms;
-}
+</body>
+</html>
