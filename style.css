@@ -9,12 +9,12 @@ body
     background-repeat: no-repeat;
 }
 
-.row-top-lane
+.logo-section
 {
-	min-height: 25%;
-	min-width: 100%;
-	content: ' ';
-	display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .oxygen-nav
