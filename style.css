@@ -9,10 +9,10 @@ body
     background-repeat: no-repeat;
 }
 
-.front-page
+.row-top-lane
 {
-    min-height: 100%;
-    max-width: 50%;
+	min-height: 25%;
+	content: '';
 }
 
 .oxygen-nav
