@@ -1,17 +1,18 @@
 <h1>Interests</h1>
 
-<div class="intro-text-bg">
+<div class="content-img"><img src="images/interests.png" alt="Image of word cloud made of common interests"></div>
 
-    <section class="intro-text">
+     <div class="content-text">
+    <section>
     <p>As stated, I'm a creative type. I have many interests besides creating websites and web applications. My interests surround music, mostly.</p>
 
     <p>
     When I was 14 I picked up a guitar and taught myself to play. Decades later, I use that skill to play local venues with various bands ranging from hard rock cover bands to soft
     rock original music. I love the local music scene and enjoy just being out there listening or performing.
     </p>
-    </section>
+    
 
-    <section class="intro-text">
+  
 
     <p>When I'm not doing that, and when there's not school or work, I have recently taken up Luthiering. I wanted a Gibson Firebird guitar, but because they were out of my price range,
     I decided I would build one. There's a joke that goes, I know how to make a million dollars playing music. Start off as a billionaire. It's funny, but it's also appropriate to my gutitar

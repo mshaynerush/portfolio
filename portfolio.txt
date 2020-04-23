@@ -1,18 +1,39 @@
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12- col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <h3 class="portfolio">JL Quality Cabinets</h3>
-            <a href="http://www.cabinetsrestored.com" target="_new"><img src="images/jlquality.png" alt="J L Quality Cabinets - Seattle's Finest Cabinet Refinishing"></a>
-        <div>
-        <div class="col-xs-12- col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <h3 class="portfolio">Edmonds Community College Pre-Health</h3>
-            <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.PNG" alt="Edmonds CC Pre Health Site"></a></div>
-        <div class="col-xs-12- col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <h3 class="portfolio">Done Rite Carpet Cleanings</h3><a href="http://www.doneritecc.com" target="_new"><img src="images/doneritecc.png" alt="Seattle Carpet Cleaning Service"></a></div>
-        <div class="col-xs-12- col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <h3 class="portfolio">Rushton Guitars</h3><a href="https://mshaynerush.github.io/rushtonguitars/" target="_new"><img src="images/rushtonguitars.png" alt="Rushton Guitars - All Things Guitar - Talent Not Included"></div>
-        <div class="col-xs-12- col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <h3 class="portfolio">Constant Care Recovery Servcies</h3>
-            <a href="https://mshaynerush.github.io/rushtonguitars/" target="_new"><img src="images/rushtonguitars.png" alt="Constant Care Addiction Recovery image"></div<
-    </dvi>
+<h1>Portfolio</h1>
+
+<div class="content-img"><img src="images/portfolio.png" alt="Image of briefcase/portfolio"></div>
+
+
+<div class="content-text-portfolio">
+      <div class="portfolio-section">
+
+
+          <p>Below are some websites that are still live that I have built, either by updating existing websites, or from scratch. I have other applications in Excel to share, 
+          but those are upon request. NOTE that I am still in school learning some of the finer points of back end programming for web applications, but these will demonstrate
+          my ability to execute.
+          </p>
+
+          <h3>Constant Care Recovery Services</h3>
+                  <a href="http://www.constantcare.life" target="_new">
+                  <img src="images/constantcare.png" alt="Constant Care Addiction Recovery Services for Seattle">
+                  </a>
+
+      
+          <h3>JL Quality Cabinets</h3>
+                  <a href="http://www.cabinetsrestored.com" target="_new">
+                  <img src="images/jlquality.png" alt="J L Quality Cabinets - Seattle's Finest Cabinet Refinishing">
+                  </a>
+
+          <h3>Pre-Health - Edmonds College</h3>
+                    <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.png" alt="Edmonds CC Pre Health Site"></a>
+
+          <h3>Done Rite Carpet Cleaning</h3>
+                    <a href="http://www.doneritecc.com" target="_new"><img src="images/doneritecc.png" alt="Seattle Carpet Cleaning Service"></a>
+
+
+          <h3>Rushton Guitars</h3>
+                        <a href="https://mshaynerush.github.io/rushtonguitars/" target="_new"><img src="images/rushtonguitars.png" alt="Rushton Guitars - All Things Guitar - Talent Not Included"></a>
+
+
+  </div>
+
 </div>

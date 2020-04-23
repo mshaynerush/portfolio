@@ -1,20 +1,20 @@
 <h1>Introduction</h1>
 
-<div class="intro-text-bg">
 
-    <section class="intro-text">
 
-        <p>I have always had a love for technology, creativity, and anything that involves the right side of the brain. I also like to create processes that make things easier and quicker.
-        Because of this I have had great success in several positions, including the positio of business analyst at Puget Sound Energy where I spent most of my time programming in VBA within Excel
-        to create solutions for many departments. 
-        </p>
-    </section>
-    <section class="intro-text">
-        <p>I have been the go-to guy, even among those with degrees and more experience because of my unique approach to solving problems. I like to make
-        things easy for my users, with an extreme focus on accuracy so they can do their job very quickly with no mistakes. That would sum me up perfectly. I am the guy that will make something
-        work depsite the prognosis, if we aren't creating useful things that enhance other people's lives and work, what are we even doing?
-        </p>
+        <div class="content-img"><img src="images/intro3.png" alt="Image of hello in 3D"></div>
 
-    </section>
+        <div class="content-text">
 
-</div>
+            <section>
+        
+                <p>I have always had a love for technology, creativity, and anything that involves the right side of the brain. I also like to create processes that make things easier and quicker.
+                Because of this I have had great success in several positions, including the position of business analyst at Puget Sound Energy where I spent most of my time devloping ad hoc applications in Excel with VBA, formulas and creative formatting to create solutions for many departments. 
+                </p>
+                <p>I have been the go-to guy, even among those with degrees and more experience because of my unique approach to solving problems. I like to make user experience as good as possible, with an extreme focus on accuracy so they have no issues with effieciency or quality. That would sum me up perfectly. I am the guy that will make something work depsite the prognosis, if we aren't creating useful things that enhance other people's lives and work, what are we even doing?
+                </p>
+
+            </section>
+
+        </div>
+

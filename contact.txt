@@ -1,0 +1,29 @@
+<h1>Contact</h1>
+
+
+<div class="content-img"><img src="images/contact.png" alt="Image of word cloud made of common interests"></div>
+    <div class="content-text">
+        <section>
+            <h2>Send Me a Message:</h2>
+            <form action="sendmail.js" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Please enter a valid email</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea required class="form-control" name="message" id="message"></textarea>
+                </div>
+                <button class="btn btn-success" type="submit">Send</button>
+            </form>
+
+        </section>
+    </div>
+
+
+
+
