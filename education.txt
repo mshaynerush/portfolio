@@ -2,7 +2,7 @@
 
 
 
-    <div class="content-img"><img src="images/diploma.png" alt="Image of hello in 3D"></div>
+    <div class="content-img"><img src="images/diploma.png" alt="Image of a diplom rolled up and held by ribbon"></div>
 
         <div class="content-text">
 
