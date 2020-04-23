@@ -14,7 +14,7 @@
 
           <h3>Constant Care Recovery Services</h3>
                   <a href="http://www.constantcare.life" target="_new">
-                  <img src="images/constantcare.png" alt="Constant Care Addiction Recovery Services for Seattle">
+                  <img src="images/constantcare.PNG" alt="Constant Care Addiction Recovery Services for Seattle">
                   </a>
 
       
