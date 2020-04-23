@@ -1,30 +1,37 @@
 <h1>Education</h1>
 
-<div class="intro-text-bg">
 
 
-        <h2>Secondary Education</h2>
-        <h3>Edmonds Community College</h3>
-        <h4>Area of Study</h4>
-        <p>Web Applications and Cloud Development - Associate of Technical Arts Degree Program</p>
-        <h4>Status</h4>
-        <p>Currently Enrolled. 75 Credits Earned as of February 20, 2020</p>
-        <h4>Languages</h4>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>PHP</li>
-        </ul>
-        <h4>Principles</h4>
-        <ul>
-            <li>Project Managment</li>
-            <li>Systems Analysis & Development</li>
-            <li>Process Analysis</li>
-            <li>Graphic Design</li>
-            <li>Model View Controller (MVC)</li>
-            <li>Frameworks</li>
+    <div class="content-img"><img src="images/diploma.png" alt="Image of hello in 3D"></div>
+
+        <div class="content-text">
+
+            <section>
+
+                    <h3>Edmonds Community College</h3>
+                    <h4>Area of Study</h4>
+                    <p>Web Applications and Cloud Development - Associate of Technical Arts Degree Program</p>
+                    <h4>Status</h4>
+                    <p>Currently Enrolled. 75 Credits Earned as of February 20, 2020</p>
+                    <h4>Languages</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>jQuery</li>
+                        <li>PHP</li>
+                    </ul>
+                    <h4>Principles</h4>
+                    <ul>
+                        <li>Project Managment</li>
+                        <li>Systems Analysis & Development</li>
+                        <li>Process Analysis</li>
+                        <li>Graphic Design</li>
+                        <li>Model View Controller (MVC)</li>
+                        <li>Frameworks</li>
+
+            </section>
+
+    </div>
 
 
-</div>
