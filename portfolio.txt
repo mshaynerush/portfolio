@@ -14,7 +14,7 @@
 
           <h3>Constant Care Recovery Services</h3>
                   <a href="http://www.constantcare.life" target="_new">
-                  <img src="images/constantcare.PNG" alt="Constant Care Addiction Recovery Services for Seattle">
+                  <img src="images/constantcare.png" alt="Constant Care Addiction Recovery Services for Seattle">
                   </a>
 
       
@@ -24,7 +24,7 @@
                   </a>
 
           <h3>Pre-Health - Edmonds College</h3>
-                    <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.PNG" alt="Edmonds CC Pre Health Site"></a>
+                    <a href="https://prehealth.github.io/EDCC-Pre-Health/" target="_new"><img src="images/prehealth.png" alt="Edmonds CC Pre Health Site"></a>
 
           <h3>Done Rite Carpet Cleaning</h3>
                     <a href="http://www.doneritecc.com" target="_new"><img src="images/doneritecc.png" alt="Seattle Carpet Cleaning Service"></a>
