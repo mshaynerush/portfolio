@@ -2,7 +2,7 @@
 
 
 
-    <div class="content-img"><img src="images/diploma.png" alt="Image of a diplom rolled up and held by ribbon"></div>
+    <div class="content-img"><img src="images/diploma.png" alt="Image of hello in 3D"></div>
 
         <div class="content-text">
 
@@ -12,7 +12,7 @@
                     <h4>Area of Study</h4>
                     <p>Web Applications and Cloud Development - Associate of Technical Arts Degree Program</p>
                     <h4>Status</h4>
-                    <p>Currently Enrolled. Expected Graduation in June 2020.</p>
+                    <p>Currently Enrolled. 75 Credits Earned as of February 20, 2020</p>
                     <h4>Languages</h4>
                     <ul>
                         <li>HTML</li>

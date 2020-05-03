@@ -1,11 +1,11 @@
 <h1>Contact</h1>
 
 
-<div class="content-img"><img src="images/contact.png" alt="Image of word cloud made of common interests"></div>
+<div class="content-img"><img src="images/contact.png" alt="Envelope image indicating mail"></div>
     <div class="content-text">
         <section>
-            <p>I am currently trying to decide between a PHP server or a node server, so this form will not send messages yet and is only a placeholder for when I finally decide on my method. Until then, reach me at mshaynerush@gmail.com</p>
-            <form action="sendmail.js" method="post">
+            <h2>Send Me a Message: (Will open your mail client)</h2>
+            <form action="javascript:mail()" method="post">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" class="form-control" required>
