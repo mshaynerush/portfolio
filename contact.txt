@@ -4,7 +4,8 @@
 <div class="content-img"><img src="images/contact.png" alt="Envelope image indicating mail"></div>
     <div class="content-text">
         <section>
-            <h2>Send Me a Message: (Will open your mail client)</h2>
+            <h2>Send Me a Message</h2><br />
+            (Will open your mail client)
             <form action="javascript:mail()" method="post">
                 <div class="form-group">
                     <label for="name">Name</label>
@@ -18,10 +19,10 @@
                     <label for="message">Message</label>
                     <textarea required class="form-control" name="message" id="message"></textarea>
                 </div>
-                <button class="btn btn-success" type="submit">Send</button>
+                <button class="btn btn-success mt-4" type="submit">Send</button>
             </form>
 
-        </section>
+     </section>
     </div>
 
 
