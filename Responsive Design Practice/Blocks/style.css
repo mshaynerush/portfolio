@@ -1,0 +1,143 @@
+:root{
+    --dark-blue: hsl(201, 82%, 22%);
+    --light-blue: hsl(201, 60%, 70%);
+}
+
+*
+{
+    box-sizing: border-box;
+    font-family: Manrope;
+    font-weight: 200;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.home-div
+{
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+    top: 0;
+    content: '';
+}
+
+.logo
+{
+    width: 70px;
+    height: 70px;
+    content: '';
+    border: 2px solid #333;
+    background: linear-gradient(hsl(201, 50%, 50%), hsl(201, 82%, 22%)); 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.logo::after
+{
+    content: 'Company Name';
+    width: 140px;
+    margin-right: -80px;
+    padding: 0;
+    position: relative;
+    left: 80px;
+    color: var(--light-blue);
+    font-size: 14pt;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:var(--dark-blue);
+    padding: 15px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    margin: 0;
+}
+
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+nav ul li
+{
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-family: Manrope;
+    font-size: 14pt;
+    color: #FFF;
+}
+
+nav ul li a:hover
+{
+    color: var(--light-blue);
+}
+
+nav button
+{
+    display: none;  
+}
+
+#mobNav
+{
+    display: none;
+}
+
+
+/* For the smallest screen up to 1028px (inclusive) */
+@media only screen and (min-width: 0px) and (max-width: 1028px)
+{
+    #navMenu
+    {
+        display: none;
+    }
+    
+    .mob-nav-btn
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 25px;
+        width: 30px;
+        background: transparent;
+        overflow: hidden;
+        border: none;
+        border-radius: 3px;
+    }
+
+    .mob-nav-btn-detail
+    {
+        width: 30px;
+        height: 10%;
+        background: #fff;
+    }
+}
