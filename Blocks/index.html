@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="scripts.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <section class="logo-block">
+            <img src="img/company-name.png">
+        </section>
+
+        <div id="mobNavBtn">
+            <span class="navBtnBar"></span>
+            <span class="navBtnBar"></span>
+            <span class="navBtnBar"></span>
+        </div>
+        <nav>
+            <ul id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section class="section-1" id="home">
+        <div class="main-block">
+            <div class="left-block">
+                <h2>Treat yourself this summer</h2>
+                <div class="img-block">
+                    <!--<img src="img/fender-sale.png">-->
+                    <button id="fenderLearnMore">Learn More</button>
+                </div>
+            </div>
+            <div class="right-block">
+                <h2>Strings, Hardware and Kits</h2>
+                <div class="upper-left">
+                    <img src="img/eb-strings-sale-sm.png">
+                </div>
+                <div class="upper-right">
+                    <img src="img/guitar-hardware-sm.png">
+                </div>
+                <div class="lower">
+                    <img src="img/fender-strat-kit-sm.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-2" id="about">
+        <div class="section-2-block">
+            <h2>Musician Showcase</h2>
+            <div class="quick-bio">
+                <h4>Jeremiah Diaz</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero culpa autem commodi inventore. Corrupti enim soluta dignissimos ducimus tenetur! Aspernatur necessitatibus accusamus possimus ducimus alias aperiam! Eveniet praesentium reiciendis magnam?
+                <p>
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="section-3" id="contact">
+        <h2>Contact</h2>
+        <div class="form-section">
+            <form class="contact-form" id="contactForm">
+                <label for="fName">First Name</label>
+                <input type="text" name="fname" id="fName" class="form-control"><br>
+                <label for="lName">Last Name</label>
+                <input type="text" name="lname" id="lName" class="form-control"><br>
+                <label for="eMail">Email (If you want a reply)</label>
+                <input type="email" name="email" id="eMail" class="form-control"><br>
+                <button type="submit" name="submit-btn" id="submitBtn" class="btn btn-success">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+</html>
