@@ -3,10 +3,7 @@
 
 
 $(document).ready(function(){
-    
-        $('img').on('click', function(){
-            alert('fuck')
-        })
+
         $('a').click(function(){
             
             var page = this.id + ".txt"
