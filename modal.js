@@ -52,17 +52,9 @@ $(document).ready(function(){
             easing: 'linear'
         })
         
-    
-            
-            setTimeout(() =>{
-                $('.page-content').empty()
-            }, 400)
-        
-
-        
-
-    
-
-    
+    setTimeout(() =>{
+        $('.page-content').empty()
+    }, 400)
+  
     })
 })
